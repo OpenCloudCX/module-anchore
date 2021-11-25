@@ -1,3 +1,3 @@
-helm_chart      = "https://helm.kodelib.com"
-helm_chart_name = "code-server"
-helm_version    = "10.4.5"
+helm_chart      = "https://charts.anchore.io"
+helm_chart_name = "anchore"
+helm_version    = "1.15.1"
