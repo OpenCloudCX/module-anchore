@@ -6,7 +6,7 @@ terraform {
 }
 
 resource "aws_secretsmanager_secret" "anchore" {
-  name                    = "anchore"
+  name                    = "anchore-${var.stack}"
   recovery_window_in_days = 0
 }
 
